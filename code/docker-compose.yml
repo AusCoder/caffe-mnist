@@ -1,0 +1,8 @@
+version: '2'
+services:
+  lmdb:
+    container_name: lmdb-worker
+    build: .
+    command: ["python", "src/decode.py"]
+    volumes:
+      - ~/mnist/data/:/root/mnist/data/

@@ -1,6 +1,6 @@
 ## Caffe-mnist
 
-This is a simple example of training a neural network in Caffe with the Mnist dataset. The entire process is run in a docker container, so it should be portable provided you have an nvidia graphics card with CUDA and nvidia-docker installed.
+This is a simple example of training a neural network in Caffe with the Mnist dataset. The entire process is run in a docker container, so it should be portable provided you have an nvidia graphics card with CUDA and nvidia-docker installed. This also depends on the versions installed, currently I am running Ubuntu 16.04 with CUDA 8.0.61.
 
 ### Lmdb creation
 
